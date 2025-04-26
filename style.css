@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #4a2c2a;
+}
+
+header {
+    background-color: #fbc490;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4a2c2a;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.presentacion {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.producto {
+    background-color: #fff;
+    border: 2px solid #fbc490;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.videos, .redes, .contacto {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.redes ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: #e07a5f;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #fbc490;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+.logo-container {
+    display: flex;
+    align-items:center;
+    gap: 15px;
+}
+
